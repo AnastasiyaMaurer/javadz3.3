@@ -4,7 +4,7 @@ public class Main {
         int amountCredit = 1_000_000;
         double interestRate = 9.99;
         int creditTerm = 12;
-        double creditPayment = service.calculate(creditTerm, amountCredit, interestRate);
+        double creditPayment = service.calculate(amountCredit, creditTerm, interestRate);
         System.out.println("Ежемесячный платеж: " + creditPayment);
     }
 }
